@@ -1,0 +1,7 @@
+<% if @symbol %>
+  <div class="card card-header results-block mt-2">
+    <strong>Symbol: </strong> <%= @symbol.ticker %>
+    <strong>Name: </strong> <%= @symbol.name %>
+    <strong>Price: </strong> <%= @symbol.price %>
+  </div>
+<% end %>

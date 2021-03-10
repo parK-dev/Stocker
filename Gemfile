@@ -32,6 +32,8 @@ gem 'bootstrap', '~> 5.0.0.beta2'
 gem 'devise-bootstrap-views', '~> 1.0'
 # API to fetch stock data
 gem 'iex-ruby-client'
+# Icons
+gem "font-awesome-rails"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
